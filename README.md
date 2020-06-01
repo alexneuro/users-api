@@ -4,45 +4,45 @@ REST API with JWT
 ## users-api
 END-POINTS
 ## Authorization: 
-###{serverName}/api/auth  
+### {serverName}/api/auth  
 Return authorization login with JWToken
-###Method:
+#### Method:
     POST
-###Headers:
+#### Headers:
     Content-type: application/json
-###Body:
+#### Body:
     {"login":"", "password":""}
     
 
 
  ## User: 
- ###{serverName}/api/user
+ ### {serverName}/api/user
  Return user
- ###Method:
+ #### Method:
      GET
      
-###{serverName}/api/user
+### {serverName}/api/user
  Update user info
- Method:
+#### Method:
      POST
-###Headers:
+#### Headers:
     Content-type: application/json
-##Body:
+### Body:
    UserDTO in JSON
 
  ## Admin: 
-  ###{serverName}/api/admin/users
+  ### {serverName}/api/admin/users
   Return users
-  ###Method:
+  #### Method:
       GET
       
- ###{serverName}/api/user/{id}
+ ### {serverName}/api/user/{id}
   Update, Delete, Create user 
-  ###Method:
+  #### Method:
       POST, DELETE, PUT
- ###Headers:
+ #### Headers:
      Content-type: application/json
- ###Body:
+ #### Body:
     UserDTO in JSON
 
 
